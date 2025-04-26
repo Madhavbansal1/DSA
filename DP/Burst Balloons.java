@@ -1,3 +1,6 @@
+
+
+// using mcm 
 class Solution {
     public int maxCoins(int[] nums) {
         int[] arr = new int[nums.length+2];
