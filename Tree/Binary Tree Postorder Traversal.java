@@ -10,6 +10,7 @@ class Solution {
         if(root == null){
             return;
         }
+        
         func(ans,root.left);
         func(ans,root.right);
         ans.add(root.val);
